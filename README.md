@@ -1,1 +1,0 @@
-# Sunglasses_Assignment1_Ssoma
