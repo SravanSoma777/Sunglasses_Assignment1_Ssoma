@@ -10,3 +10,11 @@ i.e.,
 -modified the title of the project page to reflect the company name with link to the product catalogue page
 -added an additional page called about us tpo include the information of the fictional compay ,locationb,staff and description of the model
 -now onto changing and ccustomizing the project to include images and modifyng default styles of the application.
+
+
+1238 2022/10/12 
+
+
+
+
+
