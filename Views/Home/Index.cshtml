@@ -1,8 +1,34 @@
 ﻿@{
     ViewData["Title"] = "Product Page";
 }
+<style>
+    #imgContainer{
+        margin:auto;
+        width:900px;
+        border-bottom:black solid 10px;
+        background-color:antiquewhite;
 
+    }
+    #img1{
+        width:400px;
+
+    }
+    #img2{
+        width:400px;
+    }
+    h1{
+        font-family:Cinzel;
+        font-weight:900;
+    }
+    p{
+        text-decoration:underline;
+    }
+</style>
 <div class="text-center">
     <h1><a class="nav-link text-dark" asp-area="" asp-controller="Sunglasses" asp-action="Index">Rays Ban </a></h1>
-    
+    <p>Get Yours.....  we specialize in every aspect.</p>
+    <div id="imgContainer">
+        <img id="img1" src="~/img/sunglass 1.png" />
+        <img id="img2" src="~/img/sunglass2.png" />
+    </div>
 </div>
