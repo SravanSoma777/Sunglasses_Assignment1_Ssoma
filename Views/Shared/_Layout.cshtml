@@ -8,10 +8,26 @@
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
 <body>
+    <style>
+        li{
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight:900;
+            margin-right:10px;
+            background-color:burlywood;
+        }
+        footer{
+            font-family:Castellar;
+            background-color:antiquewhite;
+        }
+        #heading{
+            font-family:Bahnschrift;
+            font-size:30px;
+        }
+    </style>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Sunglasses" asp-action="Index">Sunglasses</a>
+                <a id="heading" class="navbar-brand" asp-area="" asp-controller="Sunglasses" asp-action="Index">Sunglasses</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -45,7 +61,7 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2022 - Sunglasses_Assignment1_Ssoma - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            &copy; @DateTime.Now 2022 - Sunglasses_Assignment1_Ssoma - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
