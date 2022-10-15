@@ -54,7 +54,7 @@ namespace Sunglasses_Assignment1_Ssoma.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,name,ReleaseDate,ShadeType,Price,review,country")] Sunglasses sunglasses)
+        public async Task<IActionResult> Create([Bind("Id,name,ReleaseDate,ShadeType,Price,review,reviewScale,country")] Sunglasses sunglasses)
         {
             if (ModelState.IsValid)
             {
@@ -86,7 +86,7 @@ namespace Sunglasses_Assignment1_Ssoma.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,name,ReleaseDate,ShadeType,Price,review,country")] Sunglasses sunglasses)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,name,ReleaseDate,ShadeType,Price,review,reviewScale,country")] Sunglasses sunglasses)
         {
             if (id != sunglasses.Id)
             {

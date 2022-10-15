@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Sunglasses_Assignment1_Ssoma.Data;
 
 namespace Sunglasses_Assignment1_Ssoma.Migrations
 {
     [DbContext(typeof(MvcSunglassesContext))]
-    partial class MvcSunglassesContextModelSnapshot : ModelSnapshot
+    [Migration("20221015003246_reviewScale")]
+    partial class reviewScale
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

@@ -34,8 +34,13 @@
             </div>
             <div class="form-group">
                 <label asp-for="review" class="control-label"></label>
-                <input asp-for="review" class="form-control" />
+                <input name="review" asp-for="review" class="form-control" />
                 <span asp-validation-for="review" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="reviewScale" class="control-label"></label>
+                <input type="range" name="reviewScale" default="3" min="1" max="5" asp-for="reviewScale" class="form-control" />
+                <span asp-validation-for="reviewScale" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="country" class="control-label"></label>
