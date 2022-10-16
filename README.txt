@@ -157,7 +157,7 @@ database table doesnt have any data and tested successfully
 2200 2022/10/15
 
 --Added a new README.md file to the repository to inlcude a bigger idea of the assignments given and done
-
+--Updated the About us file 
 
 
 
